@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width, initial-scale=1">
+	<title>MyNameAlex-Maps</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+	<!--header-->
+	<div class="medsos">
+		<div class="container">
+			<ul>
+				<li><a href="https://www.facebook.com/alex.rahmadiansyah"><i class="fab fa-facebook-square"></i></a></li>
+				<li><a href="https://www.instagram.com/alexrahmadiansyah/"><i class="fab fa-instagram-square"></i></a></li>
+			</ul>
+		</div>
+	</div>
+	<header>
+		<div class="container">
+			<h1><a href="index.html">MNA</a></h1>
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="profil.html">PROFIL</a></li>
+                <li><a href="galeri.html">GALERI</a></li>
+                <li class="active"><a href="contact.html">CONTACT</a></li>
+			</ul>
+		</div>
+	</header>
+
+	<!--contact-->
+    <section class="contact">
+        <div class="container">
+            <h3>Hubungi Kami</h3>			
+				<form >
+			  
+				  <label>Nama</label>
+				  <input type="text" id="name" placeholder="Nama kamu">
+			  
+				  <label>Nama Panggilan</label>
+				  <input type="text" id="nama panggilan" placeholder="ex : Joni">
+
+				  <label>Jenis Kelamin</label>
+				  <p><input type='radio' name='jenis_kelamin' value='L' />  Laki-Laki</p>
+				  <p><input type='radio' name='jenis_kelamin' value='W' />  Wanita</p>
+
+				  <label for="">No Hp</label>
+				  <input type="text" id="nohp" placeholder="ex : 0821xxxxxxxxx">
+			  
+				  <label>Negara</label>
+				  <select id="negara" name="negara">
+					<option value="indonesia">Indonesia</option>
+					<option value="malaysia">Malaysia</option>
+					<option value="usa">USA</option>
+					<option value="thailand">Thailand</option>
+					<option value="china">China</option>
+				  </select>
+			  
+				  <label for="subjek">Subjek</label>
+				  <textarea id="subjek" name="subject" placeholder="Tulis Sesuatu..." style="height:200px"></textarea>
+			  
+				  <input type="submit" value="Submit">
+			  
+				</form>
+            </div>
+    </section>
+
+	<!--footer-->
+	<footer>
+		<div class="container">
+			<small>Copyright &copy; 2021 - MNA. All Rights Reserved. </small>
+		</div>
+	</footer>
+</body>
+</html>

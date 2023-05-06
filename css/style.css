@@ -1,0 +1,256 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+.medsos{
+	padding:0;
+	background-color: #1758DB;
+}
+.medsos ul li{
+	display: inline-block;
+	color: #fff;
+	margin: 10px;
+	font-size: 20px;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+.container:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+header h1{
+	float:left;
+	padding:15px;
+	color:#1758DB;
+}
+header ul{
+	float:right;
+}
+header ul li{
+	display: inline-block;
+	color: #1758DB;
+}
+header ul li a{
+	padding: 25px 20px;
+	display: inline-block;
+}
+header ul li a:hover{
+	background-color: #1758DB;
+	color:#fff;
+}
+.active{
+	background-color: #1758DB;
+	color:#fff;
+}
+.banner{
+	height: 60vh;
+	background-image: url('../img/banner.jpeg');
+	background-size: cover;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.banner:after{
+	content:'';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(23, 88, 219, .4);
+}
+.banner h2{
+	color:#fff;
+	z-index: 1;
+	padding:20px 25px;
+	border: 3px solid;
+}
+.banner p{
+	color: #fff;
+	z-index: 1;
+	padding: 10px;
+	margin: 10px;
+}
+section{
+	padding:70px 0;
+}
+section h3{
+	width:100%;
+	text-align: center;
+	padding: 20px 0;
+	color: #1758DB;
+}
+.galeri .container{
+	margin: 25px auto;
+}
+.galeri{
+	background-color: #A4C8A2;
+}
+.galeri:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+iframe{
+	margin: 5px;
+	width:100%; 
+	height:450px;
+	border:0; 
+}
+.box{
+	width:100%;
+	height:30vh;
+	color: #1758DB;
+	padding: 25px;
+}
+.profil .box{
+	padding-left: 15% ;
+	width:auto;
+	height: 50vh;
+}
+.profil .box .col-4{
+	width: 28%;
+	padding: 5px;
+	box-sizing: border-box;
+	float: left;
+}
+.box .col-4{
+	width: 25%;
+	padding: 15px;
+	box-sizing: border-box;
+	float: left;
+}
+.img{
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	background-image: url('../img/alex.jpg');
+	background-size: cover;
+}
+.img2{
+	width: 200px;
+	height: 200px;
+	margin:0 auto;
+	background-image: url('../img/alex2.jpg');
+	background-size: cover;
+}
+.img3{
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	background-image: url('../img/alex3.jpg');
+	background-size: cover;
+}
+.img4{
+	width: 200px;
+	height: 200px;
+	margin:0 auto;
+	background-image: url('../img/alex4.jpg');
+	background-size: cover;
+}
+.img5{
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	background-image: url('../img/alex5.jpg');
+	background-size: cover;
+}
+.container .riwayat {
+	width: 100%;
+	height: 50vh;
+	color: #1758DB;
+	padding:30px;
+	box-sizing: border-box;
+}
+.container .riwayat h4{
+	margin:5px;
+}
+.container .riwayat table{
+	width: 100%;
+	margin:10px;
+	border:1px solid; 
+	padding: 10px;
+	text-align: center;
+}
+.container .riwayat table td{
+	width: 50%;
+	padding: 5px;
+	border: 1px solid;
+}
+.container .riwayat table th{
+	width: 50%;
+	padding: 5px;
+	border: 1px solid;
+	box-sizing: border-box;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=radio], p{
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+input[type=submit] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.contact .container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+footer{
+	padding-top: 15px; 
+	height: 30px;
+	line-height: 30px;
+	position: static;
+	background-color: #581845;
+	color: #fff; 
+	bottom: 0px;
+	width: 100%;
+}
+@media screen and(max-width: 768px){
+	.container{
+		width: 90%;
+	}
+	header h1{
+		text-align: center;
+		float: none;
+	}
+	header ul{
+		text-align: center;
+		float:none;
+	}
+	.box .col-4{
+		width: 100%;
+		float: none;
+		margin-bottom: 20px;
+	}
+}
